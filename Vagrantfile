@@ -2,7 +2,7 @@
 # vi: set ft=ruby :
 
 $script = <<SCRIPT
-sudo apk update && sudo apk upgrade && sudo apk add nano docker
+sudo apk update && sudo apk upgrade && sudo apk add nano git docker
 sudo addgroup vagrant docker
 sudo rc-update add docker boot
 sudo service docker start
